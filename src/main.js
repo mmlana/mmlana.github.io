@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./assets/css/app.css";
 import "./assets/css/custom.css";
 
