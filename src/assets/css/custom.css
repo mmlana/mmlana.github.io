@@ -15,6 +15,7 @@
 }
 .text-custom {
   color: #ff8788;
+  text-shadow: black 0 2px 3px;
 }
 
 .text-custom-secondary {

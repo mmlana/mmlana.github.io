@@ -36,7 +36,7 @@
             <h3 v-scroll-reveal="{ delay: 550 }">Web Developer</h3>
           </div>
 
-          <div class="mouse-container p-5 mt-5" v-scroll-reveal="{ delay: 650 }">
+          <div class="mouse-container p-5 mt-5 d-flex justify-content-center" v-scroll-reveal="{ delay: 650 }">
             <a href="#" v-scroll-to="'#about'">
               <div class="mouse">
                 <span class="scroll-down"></span>
