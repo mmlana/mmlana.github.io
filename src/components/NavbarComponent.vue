@@ -17,7 +17,7 @@
 <script>
 export default {
   mounted() {
-    console.log("Hero Component mounted.");
+    console.log("Navbar Component mounted.");
   },
 };
 </script>
