@@ -92,7 +92,7 @@ export default {
 .border-glass {
   background-color: transparent;
   border-radius: 0 0 20px 20px;
-  background-image: url("https://priteshgupta.com/demos/fill/waves.png");
+  background-image: url("~@/assets/img/waves.png");
   background-repeat: repeat-x;
   background-size: 100%;
   background-position: 0 110px;
@@ -102,7 +102,6 @@ export default {
   transition: all 3s ease-out;
 }
 .border-glass:hover {
-  background-image: url("https://priteshgupta.com/demos/fill/waves.png");
   background-size: 100% 60px;
   background-repeat: repeat-x;
   background-position: 100px 50px;

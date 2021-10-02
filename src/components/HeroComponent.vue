@@ -33,10 +33,24 @@
             <h1 class="text-custom mb-4" v-scroll-reveal="{ delay: 450 }">
               Muhammad Maulana
             </h1>
-            <h3 v-scroll-reveal="{ delay: 550 }">Web Developer</h3>
+            <h3 class="mb-4" v-scroll-reveal="{ delay: 550 }">Web Developer</h3>
+            <div class="social-links p-3">
+              <a href="https://www.linkedin.com/in/muhammadmaulanaa17/" target="_blank" v-scroll-reveal="{ delay: 700 }">
+                <font-awesome-icon icon="fa-brands fa-linkedin" size="2x" />
+              </a>
+              <a href="https://twitter.com/MLana229" target="_blank" v-scroll-reveal="{ delay: 800 }">
+                <font-awesome-icon icon="fa-brands fa-twitter" size="2x" />
+              </a>
+              <a href="https://www.instagram.com/mlana229/" target="_blank" v-scroll-reveal="{ delay: 800 }">
+                <font-awesome-icon icon="fa-brands fa-instagram" size="2x" />
+              </a>
+              <a href="https://github.com/mmlana" target="_blank" v-scroll-reveal="{ delay: 700 }">
+                <font-awesome-icon icon="fa-brands fa-github" size="2x" />
+              </a>
+            </div>
           </div>
 
-          <div class="mouse-container p-5 mt-5 d-flex justify-content-center" v-scroll-reveal="{ delay: 650 }">
+          <div class="mouse-container p-5 mt-5 d-flex justify-content-center" v-scroll-reveal="{ delay: 850 }">
             <a href="#" v-scroll-to="'#about'">
               <div class="mouse">
                 <span class="scroll-down"></span>
@@ -57,4 +71,12 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.social-links a {
+  color: #212529;
+  margin: 20px;
+}
+.social-links a:hover {
+  color: #ff8788;
+}
+</style>

@@ -1,17 +1,17 @@
 <template>
-    <section class="mb-5" id="about">
-        <div class="p-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 bg-pattern-wind">
-                        <div class="desc">
-                            <div class="title" v-scroll-reveal="{ delay: 250 }">
-                                <h2 class="text-custom">
-                                    About Me
-                                </h2>
-                            </div>
-                            <p v-scroll-reveal="{ delay: 350 }">
-                                <!-- Kenalkan saya Maulana, saya adalah seorang Web
+  <section class="mb-5" id="about">
+    <div class="p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 bg-pattern-wind">
+            <div class="desc">
+              <div class="title" v-scroll-reveal="{ delay: 250 }">
+                <h2 class="text-custom">
+                  About Me
+                </h2>
+              </div>
+              <p v-scroll-reveal="{ delay: 350 }">
+                <!-- Kenalkan saya Maulana, saya adalah seorang Web
                                 Developer. Saya mulai menekuni dunia
                                 pemrogramman pada tahun 2016 saat saya berada di
                                 kuliah dengan program studi D3 Komputerisasi
@@ -21,41 +21,38 @@
                                 masih aktif melakukan kegiatan programming
                                 dengan status sebagai PHP Developer di sebuah
                                 perusahaan di Kota Bandung. -->
-                                Hi, I am Muhammad Maulana usually called
-                                <strong>Maulana</strong> I am a Web Developer. I
-                                started to pursue the world of programming in
-                                2016 when I was in college with a D3
-                                Computerized Accounting study program at Telkom
-                                University and currently I am continuing to
-                                study S1 Information Systems at Widyatama
-                                University. Until now, I am still actively doing
-                                programming activities with the status as a PHP
-                                Programmer in a company in the city of Bandung.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-5 text-center"
-                        v-scroll-reveal="{ delay: 450 }"
-                    >
-                        <img
-                            class="rounded img-fluid shadow-lg"
-                            src="https://source.unsplash.com/350x350/?person"
-                            alt=""
-                        />
-                    </div>
-                </div>
+                Hi, I am Muhammad Maulana usually called
+                <strong>Maulana</strong> I am a Web Developer. I started to pursue the world of programming in 2016 when I was in college with a D3 Computerized Accounting study program at Telkom
+                University and currently I am continuing to study S1 Information Systems at Widyatama University. Until now, I am still actively doing programming activities with the status as a PHP
+                Programmer in a company in the city of Bandung.
+              </p>
             </div>
+          </div>
+          <div class="col-lg-5 text-center" v-scroll-reveal="{ delay: 450 }">
+            <img class="rounded img-fluid shadow-lg img-outline opacity-75" :src="srcImg" alt="Muhammad Maulana" />
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-    mounted() {
-        console.log("About Component mounted.");
-    }
+  mounted() {
+    console.log("About Component mounted.");
+  },
+  data() {
+    return {
+      srcImg: require("@/assets/img/img-kamz.jpeg"),
+    };
+  },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.img-outline {
+  outline: 10px double #ff87888c;
+  outline-offset: -20px;
+}
+</style>

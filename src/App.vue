@@ -16,6 +16,9 @@
             <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarNav">
               <a class="nav-link scrollactive-item" href="#portofolios">Portofolios</a>
             </li>
+            <li class="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <a class="nav-link scrollactive-item" href="#contact">Contact</a>
+            </li>
           </ul>
         </scrollactive>
       </template>
@@ -24,6 +27,8 @@
     <about-component></about-component>
     <skills-component></skills-component>
     <portofolios-component></portofolios-component>
+    <contact-component></contact-component>
+    <footer-component></footer-component>
   </div>
 </template>
 
@@ -33,9 +38,11 @@ import HeroComponent from "./components/HeroComponent.vue";
 import NavbarComponent from "./components/NavbarComponent.vue";
 import PortofoliosComponent from "./components/PortofoliosComponent.vue";
 import SkillsComponent from "./components/SkillsComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+import ContactComponent from "./components/ContactComponent.vue";
 
 export default {
-  components: { NavbarComponent, HeroComponent, AboutComponent, SkillsComponent, PortofoliosComponent },
+  components: { NavbarComponent, HeroComponent, AboutComponent, SkillsComponent, PortofoliosComponent, FooterComponent, ContactComponent },
 };
 </script>
 
